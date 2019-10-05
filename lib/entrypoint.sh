@@ -4,6 +4,6 @@ set -e
 
 # echo "testing entrypoint"
 
-npm install
+# npm install
 
 NODE_PATH=node_modules node /action/lib/test.js
