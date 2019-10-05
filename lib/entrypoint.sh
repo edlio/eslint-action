@@ -2,6 +2,6 @@
 
 set -e
 
-npm install
+# npm install
 
 NODE_PATH=node_modules node /action/lib/run.js
