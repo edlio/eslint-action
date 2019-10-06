@@ -5,7 +5,8 @@ LABEL com.github.actions.description="Lint your code with eslint in parallel to 
 LABEL com.github.actions.icon="code"
 LABEL com.github.actions.color="yellow"
 
-LABEL maintainer="Alberto Gimeno <gimenete@gmail.com>"
+RUN apt-get update
+RUN apt-get install git -y
 
 COPY lib /action/lib
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
