@@ -1,7 +1,7 @@
 # ESLint Action
 
 This custom Github Action lints our javasciprt repos with every push and
-annotate the diff with the errors and warnings reported by ESLint.
+annotates the diff with the errors and warnings reported by ESLint.
 
 ## Usage
 
