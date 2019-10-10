@@ -6,7 +6,6 @@ annotate the diff with the errors and warnings reported by ESLint.
 ## Usage
 
 Add github workflow to automatically check linting with every push using
-`edlio/eslint-action`
 
 ```yml
 # Save to .github/workflows/eslint.yml in your repo
